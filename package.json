@@ -1,0 +1,24 @@
+{
+  "name": "witty-newsletter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "https": "^1.0.0",
+    "mongoose": "^7.6.3",
+    "nodemon": "^3.0.1",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": ">=18.18.0 <19.0.0"
+  }
+}
