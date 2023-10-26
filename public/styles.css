@@ -23,9 +23,10 @@
       margin-bottom: 4px;
       margin-left:  40%;
       margin-right: 40%;
+      width: auto;
     }
     .btn {
-      font-size: 0.6rem;
+      font-size: 0.rem;
       margin-top: 10px;
       width: 15%;
     }
