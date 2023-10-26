@@ -17,11 +17,18 @@
 
   @media (max-width: 600px) {
     form {
-      font-size: 0.7rem;
+      font-size: 0.95rem;
+    }
+    
+    .form-floating {
+      margin-bottom: 4px;
+      margin-left:  40%;
+      margin-right: 40%;
     }
 
     .btn {
       margin-top: 10px;
+      width: 150px
     }
   }
 
