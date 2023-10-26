@@ -6,7 +6,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT
+const port = process.env.PORT;
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
