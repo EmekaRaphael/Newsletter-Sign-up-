@@ -20,19 +20,6 @@
       font-size: 0.75rem;
     }
     
-    .form-floating {
-      margin-bottom: 4px;
-      margin-left:  40%;
-      margin-right: 40%;
-      width: 10%;
-    }
-
-    .btn {
-      margin-left:  40%;
-      margin-right: 40%;
-      margin-top: 10px;
-      width: 300px;
-    }
   }
 
   .b-example-divider {
