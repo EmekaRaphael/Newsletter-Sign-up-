@@ -19,19 +19,13 @@
     form {
       font-size: 0.6rem;
     }
-    .form-floating {
-      margin-bottom: 4px;
-      margin-left:  40%;
-      margin-right: 40%;
-      width: 20%;
-    }
     .btn {
       font-size: 0.5rem;
       margin-top: 10px;
       width: 20%;
     }
     .social_icon li a {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
 
