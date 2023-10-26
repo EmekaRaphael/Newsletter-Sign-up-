@@ -17,12 +17,11 @@
 
   @media (max-width: 600px) {
     form {
-      font-size: 0.5rem;
+      font-size: 0.7rem;
     }
 
-    .button {
+    .btn {
       margin-top: 10px;
-      width: 5%;
     }
   }
 
