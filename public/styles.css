@@ -124,12 +124,12 @@ footer {
 
 .social_icon li a {
   font-size: 2rem;
-  color: #fff;
+  color: #524e4e;
   margin: 0 10px;
   display: inline-block;
 }
 
 .social_icon li a:hover {
   transition: 0.4s;
-  color: #043a1b;
+  color: #0d6efd;
 }
