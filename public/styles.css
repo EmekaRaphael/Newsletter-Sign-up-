@@ -12,6 +12,12 @@
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
+  }
+
+  @media (max-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 2rem;
+    }
 
     .form-floating {
       margin-bottom: 4px;
