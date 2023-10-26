@@ -30,6 +30,9 @@
       margin-top: 10px;
       width: 20%;
     }
+    .social_icon li a {
+      font-size: 1.5rem;
+    }
   }
 
   .b-example-divider {
@@ -125,8 +128,6 @@ footer {
 
 .social_icon li {
   list-style: none;
-  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
-  border-radius: 15px;
 }
 
 .social_icon li a {
