@@ -12,16 +12,18 @@
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
+
   }
 
   @media (max-width: 600px) {
     form {
       font-size: 0.5rem;
     }
-    .btn {
+
+    .button {
       margin-top: 10px;
       width: 5%;
-  }
+    }
   }
 
   .b-example-divider {
