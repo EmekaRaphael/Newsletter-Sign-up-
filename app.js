@@ -40,6 +40,12 @@ app.get("/", (request, response) => {
 app.post("/", async (req, res) => {
     const { firstName, lastName, email } = req.body;
 
+    // Check if any of the required fields are missing
+    if (!firstName || !lastName || !email) {
+        // If any field is missing, send failure.html as the response
+        return res.sendFile(__dirname + "/failure.html");
+    }
+
     try {
         const client = new Client({
             firstName,
@@ -55,6 +61,7 @@ app.post("/", async (req, res) => {
         res.sendFile(__dirname + "/failure.html");
     }
 });
+
 
 app.post("/failure", (req, res) => {
     res.redirect("/");
