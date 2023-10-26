@@ -12,6 +12,17 @@
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
+
+    .form-floating {
+      margin-bottom: 4px;
+      margin-left:  40%;
+      margin-right: 40%;
+    }
+
+    .btn {
+      margin-top: 10px;
+      width: 15%;
+    }  
   }
 
   .b-example-divider {
